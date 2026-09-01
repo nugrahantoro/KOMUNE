@@ -1,0 +1,35 @@
+# Environment configuration (CRITICAL: Contains sensitive credentials)
+.env
+.env.local
+.env.production
+.env.development
+
+# Operating System & IDE Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# Logs & Temporary Files
+*.log
+error_log
+app/logs/
+logs/
+temp/
+tmp/
+
+# Composer dependencies (if used)
+/vendor/
+
+# Database dumps / backups
+*.sql
+*.sql.gz
+*.bak
